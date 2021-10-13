@@ -1,0 +1,23 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ParametriDiConfigurazione">
+    <xs:annotation>
+      <xs:documentation>config.xml</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:string" name="font"/>
+        <xs:element type="xs:byte" name="dimensioneFont"/>
+        <xs:element type="xs:string" name="coloreBackground"/>
+        <xs:element type="xs:short" name="periodo"/>
+        <xs:element type="xs:string" name="ipDB"/>
+        <xs:element type="xs:string" name="utenteDB"/>
+        <xs:element type="xs:string" name="passwordDB"/>
+        <xs:element type="xs:short" name="portaDB"/>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="numeroRigheTabella"/>
+      <xs:attribute type="xs:string" name="ipClient"/>
+      <xs:attribute type="xs:string" name="ipServer"/>
+      <xs:attribute type="xs:short" name="portaServer"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

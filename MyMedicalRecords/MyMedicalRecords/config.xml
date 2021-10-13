@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- config.xml -->
+<ParametriDiConfigurazione numeroRigheTabella="5" ipClient="127.0.0.1" ipServer="127.0.0.1" portaServer="8080">
+  
+	<font>Arial</font>
+    <dimensioneFont>20</dimensioneFont>
+    <coloreBackground>WHITE</coloreBackground>
+    <periodo>365</periodo>
+    <ipDB>127.0.0.1</ipDB>
+    <utenteDB>root</utenteDB>
+    <passwordDB></passwordDB>
+    <portaDB>3306</portaDB>
+	
+</ParametriDiConfigurazione>
