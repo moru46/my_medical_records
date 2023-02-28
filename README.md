@@ -1,4 +1,4 @@
-# my_medical_records
+#My Medical Records
 
 The Java app that is being developed is focused on creating a memorandum to store all information related to medical events such as visits, operations, exams, and other relevant information. The app will be designed to provide a comprehensive and convenient way for individuals to track their medical history and information.
 
